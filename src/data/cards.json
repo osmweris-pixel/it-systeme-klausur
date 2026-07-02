@@ -1,0 +1,554 @@
+[
+ {
+  "id": "A1",
+  "thema": "Anwendungssystem-Ebenen",
+  "karte_vorderseite": "Nennen Sie je ein Beispiel für Anwendungssysteme auf operativer, mittlerer und strategischer Managementebene und erklären Sie deren Beziehung zueinander.",
+  "karte_rueckseite": [
+   "Operative Ebene: Auftragsbearbeitung (Operatives System/TPS) erfasst Tagesgeschäft-Transaktionen",
+   "Mittlere Ebene: Managementinformationssystem (MIS) verdichtet Transaktionsdaten zu Berichten/Kennzahlen (z.B. Absatzauswertung), daneben Entscheidungsunterstützungssystem (DSS/EUS) für Ad-hoc-Analysen wie Budgetplanung",
+   "Strategische Ebene: Führungsunterstützungssystem (FUS/ESS) für 5-Jahres-Umsatztrendvorhersage",
+   "Beziehung: Datenfluss bottom-up - operative Transaktionsdaten werden im MIS zu Kennzahlen verdichtet, das FUS baut auf diesen verdichteten Daten für die Strategie auf; Steuerung wirkt top-down"
+  ],
+  "multiple_choice": {
+   "frage": "Welche Aussage zur Beziehung zwischen den drei Ebenen von Anwendungssystemen (nach Laudon et al., Pyramidenmodell) ist korrekt?",
+   "optionen": [
+    "Operative Daten werden im MIS zu Kennzahlen verdichtet, auf denen die strategische Ebene aufbaut (Informationsfluss bottom-up)",
+    "Jede Ebene arbeitet mit eigenen, unabhängigen Datenbeständen ohne jeden Bezug zu den anderen Ebenen",
+    "Das Führungsunterstützungssystem (FUS) erfasst die operativen Tagesgeschäfts-Transaktionen direkt, während das MIS ausschließlich der Lohnbuchhaltung dient",
+    "Der Datenfluss verläuft ausschließlich top-down: die strategische Planung erzeugt unmittelbar die operativen Transaktionsdaten"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Laut Pyramidenmodell verdichten MIS-Auswertungen die operativen Transaktionsdaten (z.B. aus der Auftragsbearbeitung) zu Kennzahlen und Berichten für das mittlere Management; darauf aufbauend nutzt die strategische Ebene (FUS/ESS) diese verdichteten Daten für langfristige Planung wie eine 5-Jahres-Umsatztrendvorhersage. Der Informationsfluss laeuft also bottom-up, Steuerungsvorgaben wirken top-down. Die drei Distraktoren sind eindeutig falsch: Unabhängige Datenbestände ohne Bezug widersprechen dem Kernprinzip der Datenverdichtung; die Behauptung, FUS erfasse Tagesgeschäft direkt und MIS diene nur der Lohnbuchhaltung, vertauscht die Systemtypen und schränkt das MIS fälschlich auf einen Funktionsbereich ein; ein rein top-down verlaufender Datenfluss, bei dem Planung Transaktionsdaten erzeugt, kehrt die tatsaechliche Kausalitaet um."
+  },
+  "reverse": {
+   "prompt": "Dieses Modell ordnet betriebliche Anwendungssysteme vertikal nach drei Managementebenen (operativ, mittel, strategisch) und horizontal nach vier Funktionsbereichen (Vertrieb/Marketing, Produktion, Finanz-/Rechnungswesen, Personalwesen) an, mit den Systemtypen TPS, MIS, DSS/EUS und FUS/ESS. Wie heisst dieses Klassifikationsmodell?",
+   "antwort": "Pyramidenmodell der Anwendungssysteme (Laudon et al. 2015)"
+  },
+  "schaubild": "s020.png",
+  "schaubild_hinweis": "Folie 20 (Pyramide) zeigt die drei Ebenen als horizontale Schichten mit konkreten Prozessbeispielen in der Pyramide und den Systemtypen (TPS, MIS, DSS, FUS/ESS) rechts außen - ein Blick genügt, um Ebene, Beispiel und Kürzel zu kombinieren. Folie 22 (Datenfluss-Diagramm) zeigt den bottom-up-Informationsfluss als Pfeildiagramm von links nach rechts: drei operative Systeme mit ihren Datenspeichern links, MIS-Datenbanken als Verdichtungsstufe in der Mitte, Bericht und Manager rechts - die Leserichtung ist exakt die Dreischritt-Formel. Beide Schaubilder zusammen beantworten alle drei Teilfragen: Ebene, Beispiel, Beziehung.",
+  "block": "A"
+ },
+ {
+  "id": "A2",
+  "karte_vorderseite": "Was bedeutet informationstechnische Integration, welche Reichweite/Richtung gibt es, und welche Vorteile bieten integrierte unternehmensweite Anwendungssysteme?",
+  "karte_rueckseite": [
+   "Verknüpft getrennte, funktionsorientierte Anwendungssysteme (Dateninseln) zu einem prozessorientierten Ganzen",
+   "Integrationsrichtung: horizontal (über Funktionsbereiche gleicher Ebene, z.B. Vertrieb, Produktion, Finanz-/Rechnungswesen, Personal) vs. vertikal (über Hierarchieebenen: operativ -> MIS -> DSS -> ESS/FUS)",
+   "Integrationsreichweite in 4 Stufen: bereichsumfassend, funktionsbereichs-/prozessübergreifend, innerbetrieblich, zwischenbetrieblich (SCM lieferantenseitig, CRM kundenseitig)",
+   "Vorteil: innere und äußere Unternehmensgrenzen fallen weg, Geschäftsprozesse laufen durchgängig statt an Systemgrenzen unterbrochen"
+  ],
+  "multiple_choice": {
+   "frage": "Auf Folie 24 zeigt die Anwendungspyramide zwei Integrationsrichtungen. Wie verlaufen horizontale und vertikale Integration jeweils?",
+   "optionen": [
+    "Horizontal verbindet Funktionsbereiche auf gleicher Ebene, vertikal verbindet Hierarchieebenen von operativ bis ESS/FUS",
+    "Horizontal verbindet Hierarchieebenen von operativ bis ESS/FUS, vertikal verbindet Funktionsbereiche auf gleicher Ebene",
+    "Horizontal und vertikal beschreiben beide die Integrationsreichweite: die Verbindung zu Lieferanten und Kunden über SCM und CRM",
+    "Horizontal bezeichnet die zwischenbetriebliche, vertikal die innerbetriebliche Integrationsreichweite"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Horizontale Integration verläuft laut Folie 24 als Pfeil an der Pyramidenbasis über die Funktionsbereiche Vertrieb/Marketing, Produktion, Finanz-/Rechnungswesen und Personalwesen. Vertikale Integration verläuft als Pfeil am rechten Rand von der operativen Ebene über MIS und DSS bis zu ESS/FUS an der Spitze. Reichweite (bereichsumfassend bis zwischenbetrieblich, inkl. SCM/CRM) ist eine eigene, dritte Dimension und nicht mit der Richtung (horizontal/vertikal) zu verwechseln - beide Distraktoren, die Reichweite mit Richtung vermischen, sind daher eindeutig falsch."
+  },
+  "reverse": {
+   "prompt": "Eine Pyramide zeigt unten einen horizontalen Pfeil über die Funktionsbereiche Vertrieb/Marketing, Produktion, Finanz-/Rechnungswesen und Personalwesen, und rechts einen vertikalen Pfeil von der operativen Ebene bis zu ESS/FUS an der Spitze. Welches Konzept aus der IT-Integration wird hier dargestellt?",
+   "antwort": "Integrationsrichtung (horizontal vs. vertikal) der informationstechnischen Integration"
+  },
+  "thema": "IT-Integration",
+  "schaubild": "s024.png",
+  "schaubild_hinweis": "Das Schaubild (Folie 24) zeigt links ein Baumdiagramm mit den drei Integrationsdimensionen (Gegenstand, Richtung, Reichweite mit allen Unterpunkten) und rechts die Anwendungspyramide: der horizontale Pfeil unten zeigt, dass horizontal die operative Ebene quer durch alle Funktionsbereiche verbindet, der senkrechte Pfeil rechts zeigt, dass vertikal die Daten von operativer Ebene bis ESS/FUS nach oben verdichtet werden. Die Pyramidenform macht den räumlichen Unterschied der beiden Richtungen sofort klar - für die Klausur: horizontal läuft durch die Basis, vertikal von unten nach oben.",
+  "block": "A"
+ },
+ {
+  "id": "A3",
+  "thema": "ERP",
+  "karte_vorderseite": "Wie schaffen ERP-Systeme einen Wert für Unternehmen?",
+  "karte_rueckseite": [
+   "Zentrale Datenbank verbindet alle Funktionsbereiche (Produktion, Finanz- und Rechnungswesen, Personalwesen, Vertrieb und Marketing) auf gemeinsamer Datenbasis",
+   "Ziel: exakte Unternehmenskoordination und -steuerung durch gemeinsame Nutzung von Daten über Funktionen und Geschäftsprozesse hinweg",
+   "Wert entsteht in vier Dimensionen: Unternehmensstruktur, Management, Datenstruktur, Wettbewerbsfähigkeit",
+   "Kernsatz (Folie 29): Verbesserung der Koordination innerhalb des Unternehmens sowie der Effizienz und Entscheidungsfindung"
+  ],
+  "multiple_choice": {
+   "frage": "Was ist laut Folie der zentrale Integrationskern, der die Wertschaffung eines ERP-Systems technisch und organisatorisch ermöglicht?",
+   "optionen": [
+    "Die zentrale Datenbank, auf die alle Funktionsbereiche gleichzeitig zugreifen",
+    "Ein einzelnes Modul für Finanz- und Rechnungswesen, das alle Daten verwaltet",
+    "Eine dezentrale Speicherung mit Insellösungen je Funktionsbereich",
+    "Die Internetanbindung des Unternehmens an Lieferanten und Kunden"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Folie 28 zeigt im unteren Diagramm die zentrale Datenbank in der Mitte, um die die vier Funktionsbereiche mit bidirektionalen Pfeilen angeordnet sind. Sie ist der einzige Datenspeicher, auf den alle gleichzeitig zugreifen, und verhindert dadurch Insellösungen und Datenredundanz. Ein einzelnes Modul verwaltet nicht alle Daten (ERP besteht aus mehreren Modulen für unterschiedliche Funktionsbereiche), dezentrale Insellösungen sind das Gegenteil des ERP-Prinzips, und die Internetanbindung an Lieferanten und Kunden betrifft die Business-Suite-Erweiterung auf Folie 30, nicht den Integrationskern von Folie 28."
+  },
+  "reverse": {
+   "prompt": "In der Mitte eines Diagramms steht ein zentraler Datenspeicher, um den herum vier Funktionsbereiche (Finanz- und Rechnungswesen, Personalwesen, Produktion, Vertrieb und Marketing) mit bidirektionalen Pfeilen angeordnet sind, sodass alle gleichzeitig auf dieselbe Datenbasis zugreifen. Welches Konzept zeigt dieses Diagramm?",
+   "antwort": "Zentrale Datenbank als Integrationskern eines ERP-Systems"
+  },
+  "schaubild": "s028.png",
+  "schaubild_hinweis": "Folie 28 zeigt zwei Diagramme: Unten die zentrale Datenbank in der Mitte, um die vier Funktionsbereiche (Finanz- und Rechnungswesen, Personalwesen, Produktion, Vertrieb und Marketing) mit bidirektionalen Pfeilen angeordnet sind - man liest es von innen nach außen, die Datenbank ist der einzige Datenspeicher auf den alle gleichzeitig zugreifen. Oben ist ERP als Rahmen zwischen Lieferanten und Kunden dargestellt, was zeigt, dass die Integration die gesamte operative Wertschöpfungskette abdeckt. Beide Diagramme zusammen begründen visuell, warum die vier Wert-Dimensionen überhaupt entstehen können: ohne die zentrale Datenbank in der Mitte wären die bidirektionalen Verbindungen nicht möglich.",
+  "block": "A"
+ },
+ {
+  "id": "A4",
+  "karte_vorderseite": "Wie schaffen Supply-Chain-Management-Systeme Wert für Unternehmen, und worin unterscheiden sich Push- und Pull-basierte Lieferkettenmodelle?",
+  "karte_rueckseite": [
+   "SCM-Systeme automatisieren den Informationsaustausch zwischen Unternehmen, Lieferanten und Kunden -> geringere Lagerbestände/-kosten, vermiedene Lieferengpässe, schnellere korrekte Auftragsabwicklung",
+   "Push-Modell: durch Bedarfsprognosen gesteuert, Produktion/Lagerhaltung erfolgen vor der tatsächlichen Nachfrage, Kunde kauft was im Regal liegt (Kette wird von links nach rechts geschoben)",
+   "Pull-Modell: durch die tatsächliche Kundenbestellung ausgelöst, Produktion und Lagerauffüllung erfolgen erst nach Auftrag (Bestellung zieht die Kette von rechts nach links)",
+   "Frühere SCM-Systeme waren Push-basiert, erst webbasierte Werkzeuge machen das nachfragegesteuerte Pull-Modell möglich"
+  ],
+  "multiple_choice": {
+   "frage": "Was unterscheidet das Pull-basierte vom Push-basierten Lieferkettenmodell?",
+   "optionen": [
+    "Im Pull-Modell löst die tatsächliche Kundenbestellung Produktion und Lieferung aus, im Push-Modell steuern Bedarfsprognosen die Kette",
+    "Im Pull-Modell liefert der Lieferant direkt an den Kunden, im Push-Modell läuft alles über den Großhändler",
+    "Push-Modelle nutzen SCM-Systeme, Pull-Modelle kommen vollständig ohne Informationssysteme aus",
+    "Push-Modelle reagieren schneller auf tatsächliche Nachfrageschwankungen als Pull-Modelle, da die Lagerbestände bereits bereitstehen"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Push ist prognosegesteuert: Produktion und Lagerhaltung basieren auf Bedarfsprognosen, bevor die tatsächliche Nachfrage bekannt ist, und reagiert daher gerade NICHT schnell auf reale Nachfrageschwankungen (Gefahr von Über- oder Unterbeständen). Pull wird erst durch die tatsächliche Kundenbestellung ausgelöst, die Produktion, Lieferung und automatisches Auffüllen von Lager und Vorrat in Gang setzt."
+  },
+  "reverse": {
+   "prompt": "Ein Kettendiagramm zeigt fünf Stationen (Lieferant, Hersteller, Großhändler, Einzelhändler, Kunde), bei denen die Pfeile von rechts nach links laufen: der Kunde bestellt, das löst automatisches Auffüllen von Vorrat und Lager sowie Produktion nach Auftrag aus. Welches Lieferkettenmodell ist das?",
+   "antwort": "Pull-basiertes Modell (nachfragegesteuerte Lieferkette)"
+  },
+  "thema": "SCM (Push/Pull)",
+  "schaubild": "s034.png",
+  "schaubild_hinweis": "Folie 34 zeigt beide Modelle als übereinanderliegende Kettendiagramme mit denselben fünf Stationen (Lieferant - Hersteller - Großhändler - Einzelhändler - Kunde). Die Pfeile zeigen die Richtung des Auslösers: im Push-Modell (oben) laufen sie von links nach rechts (Prognose treibt an), im Pull-Modell (unten) von rechts nach links (Bestellung zieht). Die Beschriftungen unter jeder Station liefern die Klausur-Stichpunkte direkt - wer die Tabelle auswendig kann, schreibt sie aus dem Schaubild ab.",
+  "block": "A"
+ },
+ {
+  "id": "A5",
+  "thema": "CRM",
+  "karte_vorderseite": "Wie schaffen CRM-Systeme einen Wert? Gehen Sie auf die analytischen, operativen und kommunikativen Funktionen ein.",
+  "karte_rueckseite": [
+   "Kommunikatives/kooperatives CRM: bündelt alle Kontaktkanäle (persönlich, E-Mail, Internet, Telefon, WAP, TV/Radio) im Customer Interaction Center zu einheitlicher Kundenansprache",
+   "Operatives CRM: automatisiert Front-Office-Abläufe (Marketing-, Sales-, Service-Automation) für effizientere Routineprozesse",
+   "Analytisches CRM: wertet Data-Warehouse per Data-Mining und OLAP aus, liefert Erkenntnisse zu Kaufverhalten und Kundenprofitabilität",
+   "Closed-Loop-Architektur schließt den Kreis: Erkenntnisse aus der Analyse fließen zurück in Automation und Kontakt -> besserer Kundendienst, mehr Cross-Selling, schnellere Abschlüsse, profitable Neukunden"
+  ],
+  "multiple_choice": {
+   "frage": "Welche Aussage zur Closed-Loop-Architektur eines eCRM-Systems (Folie 39) trifft zu?",
+   "optionen": [
+    "Das Data-Warehouse mit Data-Mining und OLAP bildet den analytischen Kern, aus dem Erkenntnisse zurück in Automation und Kundenkontakt fließen",
+    "Das Customer Interaction Center ist Teil des analytischen CRM, da dort alle Kundendaten ausgewertet werden",
+    "Operatives CRM bezeichnet ausschließlich die Anbindung von ERP- und Supply-Chain-Systemen im Back-Office",
+    "Analytisches CRM und kommunikatives CRM sind identisch, da beide auf denselben Kundendaten aufbauen"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Laut Folie 39 bildet das Data-Warehouse (ausgewertet durch Data-Mining und OLAP) den Kern des analytischen CRM. Die Closed-Loop-Pfeile zeigen, wie diese Erkenntnisse zurück in die Automation-Schicht (operatives CRM) und damit in den nächsten Kundenkontakt fließen. Das Customer Interaction Center gehört zum kommunikativen CRM (Distraktor eindeutig falsch), operatives CRM meint Front-Office-Automation (Marketing/Sales/Service), nicht Back-Office-ERP/Supply-Chain (Distraktor eindeutig falsch), und analytisches sowie kommunikatives CRM sind zwei getrennte, aber über den Closed Loop verzahnte Schichten, keineswegs identisch (Distraktor eindeutig falsch)."
+  },
+  "reverse": {
+   "prompt": "Ein Modell zeigt drei übereinanderliegende Schichten: oben ein Bogen mit sieben Kundenkanälen, die im Customer Interaction Center zusammenlaufen, in der Mitte Marketing-, Sales- und Service-Automation, im Kern Data-Mining und OLAP auf einem Data-Warehouse. Zwei Pfeile führen die Erkenntnisse aus dem Kern zurück zur Oberfläche. Wie heißt dieses Modell?",
+   "antwort": "Closed-Loop-Architektur eines eCRM-Systems"
+  },
+  "schaubild": "s039.png",
+  "schaubild_hinweis": "Folie 39 zeigt die Closed-Loop-Architektur eines eCRM-Systems: Die sieben Kundenkanäle oben münden in das Customer Interaction Center, darunter die Front-Office-Automation (Marketing/Sales/Service), im Kern Data-Mining und OLAP auf dem Data-Warehouse, unten das Back-Office mit ERP und Supply-Chain. Die drei rechten Klammern beschriften exakt die drei CRM-Typen als vertikale Schichten - kommunikativ oben, operativ Mitte, analytisch innen. Die zwei Pfeile links und rechts mit der Aufschrift \"Closed-Loop-Architektur\" zeigen den Kreislauf: Erkenntnisse aus dem Kern fließen zurück an die Oberfläche und verbessern den nächsten Kundenkontakt.",
+  "block": "A"
+ },
+ {
+  "id": "A6",
+  "karte_vorderseite": "Was verbirgt sich hinter Business Intelligence (BI) und Business Analytics (BA), wozu dienen sie und wie werden sie in Entscheidungsunterstützungssystemen eingesetzt?",
+  "karte_rueckseite": [
+   "BI: Sammelbegriff für Techniken zur Konsolidierung, Analyse und Bereitstellung von Daten - deskriptiv, rückblickend (was ist geschehen?), liefert Infrastruktur (Datenbanken, Data Warehouses, Data Marts, Analyseplattformen)",
+   "BA: erweitert die analytische Komponente von BI um Vorhersage und Optimierung - zukunftsgerichtet, liefert Toolset (Data-Mining, OLAP, Berichte/Abfragewerkzeuge, Big-Data-Analyse)",
+   "Darauf setzen drei Systemtypen auf: MIS (Berichte ans mittlere Management), EUS/DSS (Modelle/Analysen für unstrukturierte Entscheidungen), FUS/ESS (verdichtete Kennzahlen ans Top-Management)",
+   "Voraussetzung: solide Datenbankgrundlage, Analysetools, Managementteam das intelligente Fragen stellt und Daten analysieren kann"
+  ],
+  "multiple_choice": {
+   "frage": "Wie stehen Business Intelligence (BI) und Business Analytics (BA) laut Folie zueinander?",
+   "optionen": [
+    "BA ist eine Alternative zu BI, beide Konzepte schließen sich gegenseitig aus",
+    "BA ist die analytische Vertiefung von BI: die BI-Infrastruktur liefert die Datenbasis, BA das Analyse-Toolset darauf",
+    "BI baut auf BA auf und liefert die Kennzahlen-Oberfläche für das im Vorfeld von BA erzeugte Analyseergebnis",
+    "BI und BA sind Synonyme für denselben Sammelbegriff ohne inhaltlichen Unterschied"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Auf Folie 46 ist das Business-Analytics-Toolset (hellblaue Ellipse) innerhalb der Business-Intelligence-Infrastruktur (orangefarbene Ellipse) verschachtelt dargestellt. BI liefert die Dateninfrastruktur (Datenbanken, Data Warehouses, Data Marts), BA baut darauf mit fortgeschrittenen Analyseverfahren (Data-Mining, OLAP) auf. BA ist damit keine Alternative und auch nicht die übergeordnete Ebene, sondern die analytische Erweiterung von BI - das Abhängigkeitsverhältnis ist genau umgekehrt zu Option 3."
+  },
+  "reverse": {
+   "prompt": "Auf einer Folie sind zwei Ellipsen ineinander verschachtelt dargestellt: die äußere, orangefarbene Ellipse enthält Datenbanken, Data Warehouses, Data Marts und Analyseplattformen. Die innere, hellblaue Ellipse enthält Methoden und Modelle, Data-Mining, OLAP sowie Berichte- und Abfragewerkzeuge. Rechts daneben folgen drei Systemtypen (MIS, EUS, FUS) als Anwendungsebene. Wie heißen die beiden ineinander verschachtelten Ebenen dieses Schichtmodells?",
+   "antwort": "Business-Intelligence-Infrastruktur (äußere Ellipse) und Business-Analytics-Toolset (innere Ellipse)"
+  },
+  "thema": "BI & BA",
+  "schaubild": "s046.png",
+  "schaubild_hinweis": "Die Folie zeigt ein Schichtmodell als ineinandergeschachtelte Ellipsen: die äußere orangefarbene Ellipse steht für die BI-Infrastruktur (Datenspeicher), die innere hellblaue für das BA-Toolset (Auswertung) - die Verschachtelung zeigt direkt, dass BA in BI enthalten ist. Von links fließen Unternehmensdaten hinein, rechts folgt die Anwendungsebene mit MIS, EUS und FUS als drei Systemtypen der Entscheidungsunterstützung. Die Voraussetzungs-Trias steht als Fußzeile auf der Folie.",
+  "block": "A"
+ },
+ {
+  "id": "A7",
+  "karte_vorderseite": "Wählen Sie drei Anwendungssysteme zur Unterstützung der Zusammenarbeit und erklären Sie, wie sie diese unterstützen und welche Vorteile das bringt.",
+  "karte_rueckseite": [
+   "Raum-Zeit-Matrix ordnet Systeme nach Zeit (synchron/asynchron) und Ort (gleicher/verschiedener Ort) in 4 Felder ein",
+   "Videokonferenz: synchron, verschiedene Orte (Feld Räumlich getrennte Interaktionen) - live per Bild/Ton, spart Reisekosten, steigert Produktivität",
+   "Wiki: asynchron, verschiedene Orte (Feld Kommunikation + Koordination) - zeitversetzt aufgebaute Wissensbasis, steigert Qualität und Innovation",
+   "E-Mail mit Gruppenkalender: asynchron, verschiedene Orte (Feld Kommunikation + Koordination) - zeitversetzte Nachrichten plus Terminkoordination, steigert Produktivität und Kundendienst"
+  ],
+  "multiple_choice": {
+   "frage": "In welches Feld der Raum-Zeit-Matrix gehört eine Videokonferenz?",
+   "optionen": [
+    "Face-to-Face-Interaktionen (gleiche Zeit, gleicher Ort)",
+    "Daueraufgabe (verschiedene Zeiten, gleicher Ort)",
+    "Räumlich getrennte Interaktionen (gleiche Zeit, verschiedene Orte)",
+    "Kommunikation + Koordination (verschiedene Zeiten, verschiedene Orte)"
+   ],
+   "richtige_index": 2,
+   "erklaerung": "Eine Videokonferenz findet live statt (synchron, gleiche Zeit), die Teilnehmer sitzen aber an unterschiedlichen Orten. Laut Folie 50 gehört sie damit ins Feld Räumlich getrennte Interaktionen (unten links), nicht ins Feld Kommunikation + Koordination, das für asynchrone Systeme wie E-Mail oder Wiki steht. Die anderen beiden Optionen setzen gleichen Ort voraus, was für eine Videokonferenz nicht zutrifft."
+  },
+  "reverse": {
+   "prompt": "Eine 4-Felder-Matrix ordnet IT-Kollaborationssysteme nach den Achsen Zeit (synchron/asynchron) und Ort (gleicher Ort/verschiedene Orte) ein, z.B. Videokonferenz unten-links, Wiki und Gruppenkalender unten-rechts. Wie heißt dieses Klassifikationsmodell?",
+   "antwort": "Raum-Zeit-Matrix für IT-gestützte Zusammenarbeit (Laudon et al. 2015)"
+  },
+  "thema": "Zusammenarbeit/Groupware",
+  "schaubild": "s050.png",
+  "schaubild_hinweis": "Folie 50 zeigt die Raum-Zeit-Matrix als 4-Felder-Matrix: horizontale Achse Zeit (links synchron, rechts asynchron), vertikale Achse Ort (oben gleicher Ort, unten verschiedener Ort). Videokonferenz steht explizit im Feld unten-links (\"Räumlich getrennte Interaktionen\"), Wiki und Gruppenkalender stehen im Feld unten-rechts (\"Kommunikation + Koordination\"). Folie 51 listet die fünf Nutzendimensionen mit dem handschriftlichen Vermerk \"Transfer VIt.\" - dieser Vermerk ist der direkte Prüfungshinweis, dass der Transfer vom System zur Nutzendimension bewertet wird.",
+  "block": "A"
+ },
+ {
+  "id": "A8",
+  "karte_vorderseite": "Was besagt der SECI-Wissenskonversionsprozess von Nonaka/Takeuchi, und worin unterscheiden sich explizites und implizites Wissen?",
+  "karte_rueckseite": [
+   "SECI: vier Teilprozesse wandeln implizites und explizites Wissen fortlaufend ineinander um - Sozialisation (implizit zu implizit), Externalisierung (implizit zu explizit), Kombination (explizit zu explizit), Internalisierung (explizit zu implizit)",
+   "Explizites Wissen: kodifiziert, in Sprache/Zahlen/Regeln fassbar, dokumentierbar und über IT-Systeme übertragbar",
+   "Implizites Wissen: personengebundenes Know-how, Fertigkeit und Erfahrung, an Person, mentale Modelle und Kontext gebunden, schwer verbalisierbar",
+   "Ergebnis ist eine Wissensspirale: individuelles Wissen wächst durch wiederholten Durchlauf zu organisationalem Wissen"
+  ],
+  "multiple_choice": {
+   "frage": "Welcher SECI-Teilprozess beschreibt die Umwandlung von implizitem in explizites Wissen?",
+   "optionen": [
+    "Sozialisation",
+    "Externalisierung",
+    "Kombination",
+    "Internalisierung"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Externalisierung wandelt implizites (personengebundenes, schwer verbalisierbares) Wissen in explizites, dokumentierbares Wissen um - etwa durch Artikulieren von Erfahrungswissen in Sprache und Konzepte. Sozialisation ist implizit zu implizit (z.B. Beobachtung, gemeinsame Erfahrung), Kombination ist explizit zu explizit (Neuverknüpfung bestehender expliziter Wissensbestände), Internalisierung ist explizit zu implizit (Learning by doing)."
+  },
+  "reverse": {
+   "prompt": "Auf Folie 54 heisst es, Wissen sei 'haftend' (schwer zu bewegen), situationsabhängig, in die Unternehmenskultur verwoben und funktioniere nur mit bestimmten Umgebungsvoraussetzungen. Wie nennt man diese Eigenschaft von Wissen?",
+   "antwort": "Sticky Knowledge (haftendes Wissen)"
+  },
+  "thema": "Wissenskonversion (Nonaka)",
+  "schaubild": "s054.png",
+  "schaubild_hinweis": "Folie 54 ist in drei grau hinterlegte Blöcke gegliedert: \"Wissen gehört zum Anlagevermögen\", \"Wissen hat unterschiedliche Formen\" und \"Wissen hat einen Standort\". Der mittlere Block liefert die Klausurbasis - hier steht die Unterscheidung implizit/explizit sowie Wissensformen (Know-how, Fertigkeit, Kausalitätswissen). Der untere Block (\"hat einen Standort\") begründet, warum der SECI-Prozess nötig ist: Wissen ist \"haftend\" (sticky), situationsabhängig, kontextgebunden - es muss aktiv konvertiert werden, weil es nicht von selbst fließt.",
+  "block": "A"
+ },
+ {
+  "id": "A9",
+  "karte_vorderseite": "Wie kann das Reflexionsmodell (Dimensionen und Nutzbarmachung von Wissen) im Kontext von Wissensmanagement eingesetzt werden?",
+  "karte_rueckseite": [
+   "Wissen als Anlagevermoegen: immateriell, unterliegt nicht abnehmendem sondern zunehmendem Ertragszuwachs (Netzwerkeffekt, Sprach-Beispiel: mehr Sprecher = mehr Nutzen)",
+   "Wissen hat unterschiedliche Formen: implizit/explizit, Know-how, Prozedurkenntnis (WIE) und Kausalitaetswissen (WARUM)",
+   "Wissen hat einen Standort: personengebunden, haftend, situations- und kontextabhängig",
+   "Die drei Dimensionen dienen als Anforderungskatalog für WM-Systeme: Suche/Speicherung für explizites Wissen, Experten-Auffinden für implizites Wissen, Portale/Groupware für den Netzwerkeffekt"
+  ],
+  "multiple_choice": {
+   "frage": "Welchem oekonomischen Gesetz unterliegt Wissen laut Reflexionsmodell, im Unterschied zu physischem Anlagevermoegen?",
+   "optionen": [
+    "Gesetz des zunehmenden Ertragszuwachses, weil der Wert mit der Zahl der Nutzer steigt",
+    "Gesetz des abnehmenden Ertragszuwachses, weil Wissen durch Gebrauch veraltet",
+    "Gesetz des abnehmenden Grenznutzens, weil Wissen bei wiederholter Anwendung an Neuheitswert verliert",
+    "Gesetz des konstanten Ertrags, weil Wissen unabhängig von der Nutzerzahl gleich viel wert bleibt"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Folie 54 nennt explizit das Gesetz des zunehmenden Ertragszuwachses durch Netzwerkeffekte: Wissen wird wertvoller, je mehr Einzelpersonen es gemeinsam nutzen (Sprach-Beispiel), während physisches Anlagevermoegen sich abnutzt (abnehmender Ertragszuwachs). Die anderen drei Optionen beschreiben kein im Reflexionsmodell genanntes Prinzip und widersprechen dem Netzwerkeffekt-Gedanken."
+  },
+  "reverse": {
+   "prompt": "Ein Modell (Folie 54) beschreibt Wissen anhand von drei Dimensionen: es zählt zum immateriellen Anlagevermoegen mit zunehmendem statt abnehmendem Ertragszuwachs, es tritt in unterschiedlichen Formen auf (implizit/explizit, Know-how, Kausalitaet), und es hat einen Standort (personengebunden, haftend, kontextabhängig). Wie heisst dieses Modell?",
+   "antwort": "Reflexionsmodell (Dimensionen und Nutzbarmachung von Wissen)"
+  },
+  "thema": "Reflexionsmodell WM",
+  "schaubild": "s054.png",
+  "schaubild_hinweis": "Folie 54 zeigt das Reflexionsmodell als dreistufige Tabelle: jeder Block beginnt mit einem fett gesetzten Header (Anlagevermögen / Unterschiedliche Formen / Standort), darunter stehen Eigenschaften als Bullet-Liste. Die Klausur-Antwort spiegelt exakt diese drei Blöcke. Der Schlüsselbegriff in Block 1 ist \"Gesetz des zunehmenden Ertragszuwachses\" - dieser Fachbegriff muss wörtlich sitzen, weil er den zentralen Unterschied zu physischen Gütern markiert und den Netzwerkeffekt benennt.",
+  "block": "A"
+ },
+ {
+  "id": "A10",
+  "karte_vorderseite": "Welche besondere Rolle spielen Enterprise-Knowledge-Portale im Wissensmanagement?",
+  "karte_rueckseite": [
+   "Online-Verzeichnis der Experten im Unternehmen für genau definierte Wissensbereiche - die \"Gelben Seiten\" der Angestellten",
+   "Vermitteln den passenden Wissensträger statt ein Dokument",
+   "Geeignet für implizites, personengebundenes Erfahrungswissen, das sich kaum dokumentieren lässt",
+   "Neue Lösungen und Erfahrungen fließen aus dem Experten-Austausch zurück in die Wissens-Datenbank"
+  ],
+  "multiple_choice": {
+   "frage": "Worin besteht der zentrale Unterschied zwischen einem Enterprise-Knowledge-Portal und einem klassischen ECM-System?",
+   "optionen": [
+    "Das Knowledge-Portal vermittelt Zugang zu passenden Experten (Wissensträgern), das ECM-System verwaltet Dokumente in einem vereinheitlichten Datenspeicher",
+    "Das Knowledge-Portal ist nur für die IT-Abteilung nutzbar, das ECM-System für alle Mitarbeiter",
+    "Das Knowledge-Portal speichert ausschließlich Videos, das ECM-System nur Texte",
+    "Beide Systeme unterscheiden sich nur in der Benutzeroberfläche, inhaltlich sind sie identisch"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Enterprise-Knowledge-Portale sind personenzentriert (Gelbe Seiten der Angestellten für implizites Wissen), während ECM-Systeme dokumentenzentriert sind und explizites Wissen in einem vereinheitlichten Datenspeicher verwalten (Folie 56/57). Alle drei Distraktoren sind eindeutig falsch: keine Nutzungsbeschränkung auf die IT-Abteilung, keine Beschränkung auf ein Medienformat, und die Systeme unterscheiden sich inhaltlich, nicht nur optisch."
+  },
+  "reverse": {
+   "prompt": "Ein Mitarbeiter mit einem Problem sucht über \"Durchblättern oder suchen\" nicht direkt eine Lösung, sondern wird an einen Experten für bestimmte Themen vermittelt, der eine Lösung vorschlägt; die Lösung fließt anschließend in eine Wissens-Datenbank zurück. Welches WM-System-Konzept zeigt dieses Flussdiagramm?",
+   "antwort": "Enterprise-Knowledge-Portal (die \"Gelben Seiten\" der Angestellten)"
+  },
+  "thema": "Enterprise-Knowledge-Portale",
+  "schaubild": "s057.png",
+  "schaubild_hinweis": "Folie 57 zeigt den Ablauf als Flussdiagramm: Links ein Mitarbeiter mit Fragezeichen (hat ein Problem), der über das zentrale Oval \"Durchblättern oder suchen\" auf Experten für bestimmte Themen zugreift - ein Experte schlägt die Lösung vor, die der Mitarbeiter erhält. Unten fließen neue Lösungen und Erfahrungen zurück in die Wissens-Datenbank. Das Schaubild macht die personenzentrierte Vermittlerlogik sichtbar: Das Portal steht in der Mitte zwischen Problem und Expertenmensch, nicht zwischen Problem und Dokument. Die rot hervorgehobenen \"Gelben Seiten\" auf der Folie sind der wörtlich zu zitierende Kernbegriff.",
+  "block": "A"
+ },
+ {
+  "id": "A11",
+  "karte_vorderseite": "Nennen Sie zwei intelligente Techniken/Systeme aus dem Bereich Künstliche Intelligenz und erklären Sie ihre Beiträge zum Wissensmanagement.",
+  "karte_rueckseite": [
+   "Regelbasierte Expertensysteme: kodieren Expertenwissen in Wenn-Dann-Regeln, Inferenzkomponente zieht daraus Schlussfolgerungen",
+   "Expertensysteme machen verborgenes Erfahrungswissen explizit, bewahren es im Unternehmen, stützen Entscheidungen auch ohne Experten vor Ort",
+   "Semantische Technologien: geben Maschinen Bedeutungsverständnis über Metadaten (Inhaltsbeschreibungen) und Ontologien (Begriffsnetze mit Beziehungen)",
+   "Semantische Technologien verbessern Wissenssuche, -präsentation und -vermittlung, da Maschinen Inhalte interpretieren und bewerten können"
+  ],
+  "multiple_choice": {
+   "frage": "Worin unterscheiden sich regelbasierte Expertensysteme und semantische Technologien als KI-Techniken im Wissensmanagement grundlegend?",
+   "optionen": [
+    "Expertensysteme schlussfolgern über Wenn-Dann-Regeln aus Expertenwissen, semantische Technologien über Metadaten und Ontologien aus der Bedeutung von Begriffen",
+    "Expertensysteme dienen nur der Wissensspeicherung, semantische Technologien nur der Wissenskommunikation im Team",
+    "Beide Techniken basieren auf identischen Ontologien, unterscheiden sich nur in der verwendeten Programmiersprache",
+    "Expertensysteme sind ausschließlich Hardware-Komponenten zur Datenspeicherung, semantische Technologien sind reine Netzwerkprotokolle zur Datenübertragung"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Laut Folie 58 sind beides eigenständige KI-Techniken mit unterschiedlichem Funktionsprinzip: Expertensysteme kodieren Wenn-Dann-Regeln und nutzen eine Inferenzkomponente, semantische Technologien nutzen Metadaten und Ontologien, um Bedeutung zu erfassen und Inhalte zu interpretieren. Die Distraktoren beschreiben keine der beiden Techniken korrekt: Expertensysteme sind Software mit Regelwerk und Inferenzlogik (keine Hardware, keine Speicherung im engen Sinn), semantische Technologien sind Bedeutungs- und Interpretationssysteme (keine Übertragungsprotokolle, keine reine Kommunikationsfunktion)."
+  },
+  "reverse": {
+   "prompt": "Diese KI-Technik nutzt Metadaten und ein Begriffsnetz mit Beziehungen (Ontologie), damit eine Maschine z.B. erkennt, dass das Wort 'Bank' je nach Kontext zum Finanzwesen oder zum Möbelstück gehört, und dadurch Wissenssuche, -präsentation und -vermittlung verbessert. Welche Technik ist gemeint?",
+   "antwort": "Semantische Technologien"
+  },
+  "thema": "KI im Wissensmanagement",
+  "schaubild": "s058.png",
+  "schaubild_hinweis": "Folie 58 ist eine Aufzählungsfolie unter dem Kapitelkopf \"Unternehmensweite WM-Systeme\". Sie nennt mit dem Einleitungssatz \"Der Bereich Künstliche Intelligenz liefert zahlreiche Techniken/Systeme, wie z.B.\" drei konkrete Punkte (Expertensysteme, Semantische Technologien, Intelligente Agenten) plus einen offenen Platzhalter. Die Folie liefert damit direkt das prüfungsrelevante Begriffsvokabular - wer die ersten zwei Punkte der Liste nennt und erklärt, trifft exakt das, was der Dozent als klausurrelevant markiert hat.",
+  "block": "A"
+ },
+ {
+  "id": "B1",
+  "karte_vorderseite": "Nennen und erläutern Sie drei Charakteristiken von digitalen Produkten.",
+  "karte_rueckseite": [
+   "Reproduktion und Distribution: Kopien prinzipiell unbegrenzt möglich, hohe Fixkosten des ersten Exemplars (first copy costs), Grenzkosten der Reproduktion gegen null, Original und Kopie qualitativ gleichwertig",
+   "Veränderbarkeit (ambivalent): leichte nachträgliche Modifizierung, Nachteil = Verfälschungsrisiko, Vorteil = schnelle Fehlerkorrektur und einfache Aktualisierung",
+   "Erfahrungsgut: Qualität und Wertschätzung erst nach Konsum beurteilbar; daraus folgt das Zahlungsbereitschafts-Dilemma - ohne vorherige Erfahrung ist die Zahlungsbereitschaft niedrig, mit vorheriger Erfahrung ist das Gut bereits konsumiert und es besteht keine weitere Zahlungsbereitschaft mehr"
+  ],
+  "multiple_choice": {
+   "frage": "Welche Aussage zum Kostenmodell digitaler Produkte ist laut Vorlesung korrekt?",
+   "optionen": [
+    "Hohe Fixkosten für das erste Exemplar (first copy costs), Grenzkosten jeder weiteren Kopie tendieren gegen null",
+    "Fixkosten und Grenzkosten sind bei digitalen Produkten etwa gleich hoch, da jede Kopie neu produziert werden muss",
+    "Die Grenzkosten der Reproduktion sind hoch, weil digitale Kopien technisch aufwendig zu erstellen sind",
+    "Digitale Produkte haben keine Fixkosten, da die Erstellung vollständig automatisiert erfolgt"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Folie 68 nennt explizit hohe Produktions-/Fixkosten der Erstellung (first copy costs) bei gleichzeitig niedrigen, gegen null tendierenden Grenzkosten jeder weiteren Reproduktion. Das ist der zentrale Kostenmechanismus digitaler Produkte. Alle drei Distraktoren sind eindeutig falsch: Distraktor 2 behauptet Kostengleichheit (widerspricht dem Kernprinzip), Distraktor 3 kehrt die Grenzkosten-Aussage ins Gegenteil um, Distraktor 4 leugnet die hohen Fixkosten, die gerade zentral sind."
+  },
+  "reverse": {
+   "prompt": "Ein digitales Gut lässt sich vor dem Kauf nicht bewerten: ohne vorherigen Konsum ist die Zahlungsbereitschaft niedrig, nach vorherigem Konsum besteht keine weitere Zahlungsbereitschaft mehr, weil das Gut bereits verbraucht wurde. Welches Kennzeichen digitaler Produkte beschreibt dieses Dilemma?",
+   "antwort": "Erfahrungsgut (Wertschätzung erst nach Konsum beurteilbar, daraus resultiert das Zahlungsbereitschafts-Dilemma)"
+  },
+  "thema": "Digitale Produkte",
+  "schaubild": "s068.png",
+  "schaubild_hinweis": "Folie 68 listet alle acht Kennzeichen als Aufzählung, mit den klausurrelevanten Konsequenzen als hervorgehobene Unterpunkte - diese Formulierungen sind der Erwartungshorizont des Korrektors. Beim Erfahrungsgut zeigt die Folie explizit beide Dilemma-Fälle als Pfeil-Struktur, beide müssen in der Antwort erscheinen. First Copy Costs ist dort als Fachbegriff ausgewiesen und muss wörtlich genannt werden.",
+  "block": "B"
+ },
+ {
+  "id": "B2",
+  "thema": "Digitale Mehrwerte",
+  "karte_vorderseite": "Nennen Sie die sechs digitalen Mehrwerte nach Kollmann und erläutern Sie diese anhand von Praxisbeispielen.",
+  "karte_rueckseite": [
+   "Überblick (Strukturierungswert) - z. B. Web-Verzeichnis/Preisvergleichsportal",
+   "Auswahl (Selektionswert) - z. B. Suchmaschine (Google)",
+   "Vermittlung (Matchingwert) - z. B. Online-Marktplatz (eBay)",
+   "Abwicklung (Transaktionswert) - z. B. Online-Banking/Bezahlfunktion im E-Shop",
+   "Kooperation (Abstimmungswert) - z. B. Kollaborationsplattform (Google Docs)",
+   "Austausch (Kommunikationswert) - z. B. soziales Netzwerk/Messenger"
+  ],
+  "multiple_choice": {
+   "frage": "Welche der folgenden Aufzählungen entspricht den sechs digitalen Mehrwerten nach Kollmann (2022)?",
+   "optionen": [
+    "Überblick, Auswahl, Vermittlung, Abwicklung, Kooperation, Austausch",
+    "Zeit, Inhalt, Form, Überblick, Auswahl, Vermittlung",
+    "Strukturierung, Selektion, Transaktion, Kommunikation - nur vier Werte",
+    "Überblick, Auswahl, Vermittlung, Abwicklung, Kooperation, Sicherheit"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Die Folie zeigt exakt sechs orange Ellipsen um das Zentrum 'Digitale Mehrwerte': Überblick, Auswahl, Vermittlung, Abwicklung, Kooperation, Austausch (Option 1 korrekt). Option 2 vermischt die drei gelben 'Wie'-Dimensionen (Zeit, Inhalt, Form) mit nur drei der sechs 'Was'-Werte, also unvollständig und kategorial falsch. Option 3 nennt fälschlich nur vier statt sechs Werte. Option 4 wirkt auf den ersten Blick fast richtig, ersetzt aber den sechsten Wert 'Austausch' (Kommunikationswert) durch 'Sicherheit', das im Modell gar nicht vorkommt - ein klassischer Verwechslungs-Distraktor."
+  },
+  "reverse": {
+   "prompt": "Sechs orange Ellipsen kreisen auf der Folie um eine dunkelbraune Zentrum-Ellipse mit der Aufschrift 'Digitale Mehrwerte'; darunter stehen drei gelbe Boxen (Zeit, Inhalt, Form) zur Beschreibung des 'Wie'. Wie heisst dieses Modell und welche sechs Werte umkreisen das Zentrum?",
+   "antwort": "Modell der sechs digitalen Mehrwerte (Kollmann, 2022, S. 59): Überblick, Auswahl, Vermittlung, Abwicklung, Kooperation, Austausch."
+  },
+  "schaubild": "s071.png",
+  "schaubild_hinweis": "Folie 71 ist zweigeteilt: Die obere Zone zeigt sechs orange Ellipsen, die kreisförmig um eine dunkelbraune Zentrum-Ellipse \"Digitale Mehrwerte\" angeordnet sind - jede Ellipse trägt Klartext-Begriff und Wert-Typ in Klammern, diese Beschriftung ist prüfungsrelevant und muss exakt so übernommen werden. Die untere Zone enthält drei gelb umrandete Boxen (Zeit, Inhalt, Form) mit der Beschriftung \"Form der Informationsvermittlung\" - das ist die zweite Ebene des Modells (das Wie). Wer beide Zonen in der Antwort trennt und benennt, zeigt vollständiges Verständnis der Folie.",
+  "block": "B"
+ },
+ {
+  "id": "B4",
+  "thema": "5C-Geschäftskonzepte",
+  "karte_vorderseite": "Nennen Sie die fünf typischen digitalen Geschäftskonzepte (5Cs) und je ein Beispiel.",
+  "karte_rueckseite": [
+   "Content: eigene Inhalte sammeln, systematisieren, bereitstellen (handelsblatt.com)",
+   "Commerce: Geschäftstransaktionen anbahnen und abwickeln (mytoys.com)",
+   "Context: fremde Informationen strukturieren, Information Brokering (google.de)",
+   "Connection: technische/kommerzielle Vernetzung von Akteuren (meta.com); Communication: Interaktion in Netzwerken ermöglichen (whatsapp.com)"
+  ],
+  "multiple_choice": {
+   "frage": "Ein Anbieter strukturiert und filtert fremde, im Netz bereits vorhandene Informationen, um Nutzern Orientierung und Matching zu bieten (z.B. eine Suchmaschine). Welchem der 5Cs entspricht das?",
+   "optionen": [
+    "Content, da es um Inhalte im Netzwerk geht",
+    "Context, da fremde Informationen klassifiziert und zusammengeführt werden (Information Brokering)",
+    "Connection, da unterschiedliche Akteure technisch und kommerziell miteinander vernetzt werden",
+    "Commerce, da eine Transaktion zwischen Anbieter und Nutzer stattfindet"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Context ist laut Folie 81 definiert als Klassifikation, Systematisierung und Zusammenführung verfügbarer fremder Informationen zur Komplexitätsreduktion (Information Brokering), Beispiel google.de. Content sammelt dagegen eigene Inhalte, Connection stellt die technische/kommerzielle Vernetzung von Akteuren (z.B. Nutzer untereinander) her, nicht die Aufbereitung von Information, und Commerce wickelt Kauftransaktionen ab. Bei einer Suchmaschine findet weder eine Akteurs-Vernetzung noch eine Transaktion statt."
+  },
+  "reverse": {
+   "prompt": "Eine Tabelle mit fünf Spalten (Content, Commerce, Context, Connection, Communication) und Zeilen zu Definition, Ziel, Erlösmodell, Plattformen, Beispielen und Mehrwert. Welches Modell wird hier dargestellt?",
+   "antwort": "Die 5C-Geschäftskonzepte nach Kollmann"
+  },
+  "schaubild": "s081.png",
+  "schaubild_hinweis": "Folie 81 zeigt eine Tabelle mit fünf Spalten (je ein C) und mehreren Zeilen (Definition, Ziel, Erlösmodell, Beispiele). Spaltenweise lesen gibt das vollständige Bild eines Konzepts, zeilenweise lesen vergleicht einen Aspekt über alle fünf. Die Beispiele in der Klausur-Antwort stammen direkt aus der Zeile \"Beispiele\" dieser Tabelle - keine eigenen erfinden.",
+  "block": "B"
+ },
+ {
+  "id": "B6",
+  "karte_vorderseite": "Welche drei Systemlösungen gibt es im E-Procurement und was sind jeweils ihre Vor- und Nachteile?",
+  "karte_rueckseite": [
+   "Sell-Side: Lieferant betreibt System + Katalog. Vorteil: geringe Kosten für Beschaffer. Nachteil: kein Anbietervergleich möglich (Bsp. Festo.de)",
+   "Buy-Side: einkaufendes Unternehmen betreibt System + Katalog selbst. Vorteile: optimale Integration in Systemlandschaft UND lieferantenübergreifende Auswahl. Nachteil: hohe Kosten für Software-Installation und Katalog-Wartung (Bsp. Siemens.de/SCM STAR)",
+   "Marketplace: Intermediär betreibt Plattform + Katalog. Vorteil: lieferantenübergreifende Auswahl. Nachteil: eventuell keine optimale Integration in bestehende Systeme (Bsp. Mercateo.com, Alibaba.com)",
+   "Unterscheidungskriterium: wer betreibt das System und pflegt den Online-Katalog"
+  ],
+  "multiple_choice": {
+   "frage": "Welche E-Procurement-Systemlösung bietet als einzige BEIDE Vorteile - optimale Integration in die Systemlandschaft UND lieferantenübergreifende Auswahl - zugleich?",
+   "optionen": [
+    "Sell-Side-Modell, weil der Beschaffer direkt auf den Katalog des Lieferanten zugreift",
+    "Buy-Side-Modell, weil das einkaufende Unternehmen System und Katalog selbst betreibt",
+    "Marketplace-Modell, weil der Intermediär neutral zwischen allen Anbietern vermittelt",
+    "Alle drei Modelle bieten diese beiden Vorteile gleichermaßen"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Nur das Buy-Side-Modell hat laut Folie zwei Pluspunkte: optimale Integration in die Systemlandschaft des Unternehmens (da selbst betrieben) und lieferantenübergreifende Auswahl (da der Katalog überwiegend selbst gehalten wird). Sell-Side hat nur einen Vorteil (geringe Kosten für den Beschaffer), aber keinen Anbietervergleich, da nur der Katalog des einen Lieferanten zugänglich ist. Marketplace ermöglicht zwar Anbietervergleich, aber ohne optimale Integration in die eigene Systemlandschaft."
+  },
+  "reverse": {
+   "prompt": "Diese E-Procurement-Systemlösung wird vom einkaufenden Unternehmen selbst betrieben, das auch Software installiert und den Online-Katalog überwiegend selbst pflegt - Beispiel: Siemens.de mit SCM STAR.",
+   "antwort": "Buy-Side-Modell"
+  },
+  "thema": "E-Procurement",
+  "schaubild": "s083.png",
+  "schaubild_hinweis": "Folie 83 zeigt Sell-Side (Kasten 1, links) und Buy-Side (Kasten 2, rechts) direkt nebeneinander mit Betreiber-Beschreibung, Vorteilen (+) und Nachteilen (-) sowie Beispielunternehmen - der direkte Vergleich macht sofort sichtbar, dass Buy-Side als einziges Modell zwei Pluszeichen hat. Folie 84 ergänzt das Marketplace-Modell (Kasten 3) mit Screenshots von Mercateo und Alibaba, die den neutralen Multi-Anbieter-Charakter des Intermediärs illustrieren.",
+  "block": "B"
+ },
+ {
+  "id": "B7",
+  "karte_vorderseite": "Was ist die optimale Voraussetzung für ein Produkt im E-Shop? Bezug auf die Produkteignungsmatrix (3-B-Modell).",
+  "karte_rueckseite": [
+   "Optimale Eignung = hohe Beschreibbarkeit UND hohe Beurteilbarkeit gleichzeitig",
+   "Beschreibbarkeit: Produkteigenschaften lassen sich digital vollständig abbilden (Text, Bild, Video)",
+   "Beurteilbarkeit: Kunde kann ohne Anfassen/Anprobieren sicher entscheiden",
+   "Beratungsaufwand ist kein Ausschlusskriterium, da im E-Shop digital skalierbar - Beispiele: Software, Musik, Bücher, Zeitungen, Flugtickets"
+  ],
+  "multiple_choice": {
+   "frage": "Welche Kombination der drei B-Dimensionen kennzeichnet im 3-B-Modell nach Kollmann die 'Optimale Eignung' eines Produkts für den E-Shop?",
+   "optionen": [
+    "Hohe Beschreibbarkeit und hohe Beurteilbarkeit, unabhängig vom Beratungsaufwand",
+    "Hohe Beschreibbarkeit und niedriger Beratungsaufwand, unabhängig von der Beurteilbarkeit",
+    "Niedriger Beratungsaufwand und hohe Beurteilbarkeit, unabhängig von der Beschreibbarkeit",
+    "Hohe Beschreibbarkeit und hohe Beurteilbarkeit, aber nur bei gleichzeitig niedrigem Beratungsaufwand"
+   ],
+   "richtige_index": 0,
+   "erklaerung": "Die gelbe Ecke 'Optimale Eignung' im Würfel liegt bei hoher Beschreibbarkeit und hoher Beurteilbarkeit - und zwar auch im Bereich hohen Beratungsaufwands (hintere Tiefenhälfte). Der Beratungsaufwand ist im E-Shop über skalierbare digitale Informationen kompensierbar und damit kein Ausschlusskriterium. Option 2 und 3 lassen jeweils eine der beiden entscheidenden Dimensionen (Beurteilbarkeit bzw. Beschreibbarkeit) komplett weg. Option 4 unterstellt fälschlich, dass niedriger Beratungsaufwand zusätzlich Bedingung sei - genau das widerspricht der Kernaussage, dass Beratungsaufwand kompensierbar und kein Ausschlusskriterium ist."
+  },
+  "reverse": {
+   "prompt": "Ein Würfel mit drei Achsen (Beschreibbarkeit horizontal, Beurteilbarkeit vertikal, Beratungsaufwand als Tiefe) ordnet Produktkategorien vier Eignungsfeldern zu, darunter eine gelbe Ecke oben rechts hinten für Software, Musik, Bücher, Zeitungen und Flugtickets. Wie heißt dieses Modell?",
+   "antwort": "Produkteignungsmatrix / 3-B-Modell (nach Kollmann)"
+  },
+  "thema": "Produkteignungsmatrix",
+  "schaubild": "s089.png",
+  "schaubild_hinweis": "Das Schaubild zeigt einen 3D-Würfel mit den drei Achsen Beschreibbarkeit (horizontal), Beurteilbarkeit (vertikal) und Beratungsaufwand (Tiefe). Der gelbe Block \"Optimale Eignung\" sitzt oben rechts hinten - also hohe Werte auf allen drei Achsen. Vier beschriftete Felder mit Produktbeispielen sind per Pfeil mit Würfelregionen verbunden. Prüfungsrelevant: \"Mäßige Eignung\" erscheint an zwei verschiedenen Stellen des Würfels mit unterschiedlichen Produktgruppen und unterschiedlichen Schwachstellen - das ist gewollt und muss in der Antwort getrennt behandelt werden.",
+  "block": "B"
+ },
+ {
+  "id": "B8",
+  "thema": "ePricing-Modelle",
+  "karte_vorderseite": "Erklären Sie die drei ePricing-Modelle für E-Shops.",
+  "karte_rueckseite": [
+   "Zwei Achsen: Dynamik (statisch bis Real-Time) und Individualisierungsgrad (gering bis hoch)",
+   "Katalog-Pricing: statischer Festpreis, geringe Individualisierung (links unten)",
+   "Preisdifferenzierung: mittlere Dynamik und Individualisierung, Übergangsbereich auf der Diagonalen",
+   "Customer-Driven-Pricing: Echtzeit-Preisbildung, hohe Individualisierung, im Extremfall pro Kunde (rechts oben)"
+  ],
+  "multiple_choice": {
+   "frage": "Welches ePricing-Modell steht nach Kollmann (2022) für einen statischen, einheitlichen Listenpreis mit geringem Individualisierungsgrad?",
+   "optionen": [
+    "Customer-Driven-Pricing",
+    "Preisdifferenzierung nach Kundengruppen",
+    "Katalog-Pricing",
+    "Yield Management"
+   ],
+   "richtige_index": 2,
+   "erklaerung": "Katalog-Pricing liegt im Diagramm links unten: statische Dynamik und geringer Individualisierungsgrad, also ein für alle Kunden gleicher, über die Zeit stabiler Listenpreis wie im klassischen Produktkatalog. Customer-Driven-Pricing ist das Gegenteil (Real-Time, hoch individualisiert, im Extremfall Preisbildung pro Kunde). Preisdifferenzierung nach Kundengruppen ist das mittlere Modell mit mittlerer Dynamik und mittlerer Individualisierung, also gerade NICHT statisch und NICHT gering individualisiert. Yield Management ist ein branchenspezifisches Verfahren (z.B. Airlines/Hotels) zur Kapazitaetssteuerung durch dynamische Preise und gehört nicht zu den drei ePricing-Modellen nach Kollmann."
+  },
+  "reverse": {
+   "prompt": "Ein Koordinatensystem mit Y-Achse 'Dynamik' (statisch bis Real-Time) und X-Achse 'Individualisierungsgrad' (gering bis hoch) zeigt drei sich überlappende Felder diagonal von links unten (Katalog-Pricing) bis rechts oben (Customer-Driven-Pricing). Wie heisst dieses Rahmenmodell?",
+   "antwort": "Modelle des digitalen Pricing (ePricing-Modelle) für E-Shops nach Kollmann 2022"
+  },
+  "schaubild": "s090.png",
+  "schaubild_hinweis": "Das Koordinatensystem zeigt Y-Achse = Preisflexibilität (unten: statisch, oben: Real-Time) und X-Achse = Individualisierungsgrad (links: gering, rechts: hoch). Drei schraffierte Felder liegen diagonal von links-unten nach rechts-oben und überlappen sich leicht - das visualisiert das Kontinuum, besonders bei Preisdifferenzierung als Übergangsbereich. Man liest die Grafik entlang der Diagonalen: je weiter rechts-oben, desto häufiger ändert sich der Preis und desto stärker ist er auf den einzelnen Kunden zugeschnitten.",
+  "block": "B"
+ },
+ {
+  "id": "B9",
+  "thema": "Wettbewerbspositionierung E-Shop",
+  "karte_vorderseite": "Welche Strategieoptionen gibt es für die Wettbewerbspositionierung im E-Shop (nach Kollmann)?",
+  "karte_rueckseite": [
+   "Vier Optionen auf zwei Ebenen: Real Economy (Quality-Leader, Cost-Leader) und Net Economy (Topical-Leader, Speed-Leader)",
+   "Real Economy = klassische Porter-Strategien, Net Economy = internetspezifische Vorteile, sie ergänzt die Real Economy, ersetzt sie nicht",
+   "Klare Positionierung an einem der vier Pole bringt hohen ROI",
+   "Unentschiedene Mittelposition = kritischer Bereich 'Zwischen den Stühlen', digitales Stuck-in-the-middle mit dem tiefsten ROI"
+  ],
+  "multiple_choice": {
+   "frage": "Ein E-Shop versucht gleichzeitig etwas günstiger und etwas aktueller als der Wettbewerb zu sein, ohne sich klar festzulegen. Wie bewertet das Kollmann-Modell diese Position?",
+   "optionen": [
+    "Das ist eine sinnvolle Kombination aus Cost-Leader und Topical-Leader mit überdurchschnittlichem ROI",
+    "Das ist der kritische Bereich 'Zwischen den Stühlen' mit dem niedrigsten ROI auf der U-Kurve",
+    "Das ist automatisch die Position des Speed-Leaders, da Schnelligkeit beide Vorteile impliziert",
+    "Das Modell bewertet ausschließlich die Kosten- und Qualitätsführerschaft der Real Economy, die Net-Economy-Ebene bleibt für den ROI ohne jede Bedeutung"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Wer sich nicht auf einen der vier Pole (Quality-, Cost-, Topical-, Speed-Leader) festlegt, landet in der Mitte der U-Kurve, dem kritischen Bereich 'Zwischen den Stühlen' mit dem tiefsten ROI. Der Wettbewerbsvorteil entsteht laut Modell nur aus der konsequenten Festlegung auf genau eine Option, nie aus einem Kompromiss. Beide Ebenen, Real Economy und Net Economy, sind für den ROI relevant, die Net Economy ergaenzt die Real Economy statt sie zu ersetzen."
+  },
+  "reverse": {
+   "prompt": "Ein Diagramm zeigt oben vier farbige Boxen in zwei Zeilen (goldgelb: zwei Optionen der Net Economy, orange: zwei Optionen der Real Economy) und darunter eine U-Kurve mit ROI auf der vertikalen und relativem Marktanteil auf der horizontalen Achse. In der Mitte der Kurve liegt ein orange markierter kritischer Bereich mit dem tiefsten ROI-Wert. Wie heißt dieses Modell?",
+   "antwort": "Modell der Strategieoptionen zur Wettbewerbspositionierung im E-Shop nach Kollmann (Quality-Leader, Cost-Leader, Topical-Leader, Speed-Leader vs. 'Zwischen den Stühlen')"
+  },
+  "schaubild": "s091.png",
+  "schaubild_hinweis": "Das Schaubild zeigt oben zwei Zeilen farbiger Boxen: goldgelb = Net Economy mit Topical-Leader (links) und Speed-Leader (rechts), orange = Real Economy mit Quality-Leader (links) und Cost-Leader (rechts), verbunden durch beschriftete Doppelpfeile. Darunter liegt eine U-Kurve mit ROI auf der vertikalen Achse und relativem Marktanteil auf der horizontalen Achse. Die Kurve steigt an den vier Strategiepolen und fällt in der Mitte auf das Tief; das orange Rechteck in der Kurvenmitte trägt die Aufschrift \"Kritischer Bereich - Zwischen den Stühlen\". Im Kurveninnenraum steht \"Wettbewerbsvorteil aufgrund strategischer Grundkonzeption\". Für die Klausur: Die vier Boxen plus U-Kurve als Mini-Skizze in ca. 60 Sekunden hinzeichnen - Achsenpfeile beschriften (ROI / relativer Marktanteil), Mitte markieren. Das sichert die ROI-Logik-Punkte auch wenn die Formulierung knapp ist.",
+  "block": "B"
+ },
+ {
+  "id": "B10",
+  "karte_vorderseite": "Nennen Sie je ein quantitatives und ein qualitatives Koordinationsproblem beim E-Marketplace (mit Beispiel).",
+  "karte_rueckseite": [
+   "Produkt des E-Marketplace = Vermittlungsleistung (Koordination von Angebot und Nachfrage); scheitert sie, scheitert das Kerngeschäft",
+   "Quantitativ: Mengenmissverhaeltnis - Angebot und Nachfrage gleichen sich zahlenmaessig nicht aus (Beispiel: 250 Wohnungsangebote in Stadtteil X, aber nur 50 Nachfragen dort)",
+   "Qualitativ (1): Anspruchsniveau-Mismatch - Angebot passt inhaltlich nicht zum Gesuchten, obwohl die Menge passen wuerde (Beispiel: Suche nach Wohnung mit Balkon, aber kein Angebot mit Balkon)",
+   "Qualitativ (2): Objektbeschreibung bestaetigt nicht die realen Gegebenheiten -> negative Bewertung des E-Marketplace"
+  ],
+  "multiple_choice": {
+   "frage": "Welches Beispiel beschreibt korrekt das QUALITATIVE Koordinationsproblem eines E-Marketplace (nicht das quantitative)?",
+   "optionen": [
+    "250 Wohnungsangebote in Stadtteil X, aber nur 50 Nachfragen in Stadtteil X",
+    "Suche nach Wohnungen mit Balkon, jedoch keine Wohnungsangebote mit Balkon vorhanden, obwohl genug Wohnungen insgesamt angeboten werden",
+    "Die Zahl der Anbieter auf dem Marktplatz ist insgesamt zu gering im Vergleich zur Zahl der Nachfrager",
+    "Die Anzahl der Angebote und Gesuche gleicht sich insgesamt nicht aus"
+   ],
+   "richtige_index": 1,
+   "erklaerung": "Das qualitative Problem ist ein inhaltliches Passungsproblem (Anspruchsniveau-Mismatch): die Menge an Angeboten kann ausreichen, aber die gewünschten Eigenschaften (hier: Balkon) fehlen im Angebot. Die anderen drei Optionen beschreiben jeweils ein reines Mengenmissverhaeltnis (zu wenige Anbieter/Nachfrager bzw. Angebote/Gesuche gleichen sich zahlenmaessig nicht aus) - das ist das quantitative Koordinationsproblem."
+  },
+  "reverse": {
+   "prompt": "Ein Marktplatzbetreiber vermittelt zwischen Anbietern und Nachfragern; als Produkt gilt nicht die Ware selbst, sondern die Zusammenführung beider Marktseiten. Scheitert diese Zusammenführung entweder an einem zahlenmaessigen Missverhaeltnis zwischen Angeboten und Gesuchen, oder daran, dass Angebote inhaltlich nicht zum gesuchten Anspruchsniveau passen bzw. Objektbeschreibungen die realen Gegebenheiten nicht bestaetigen, liegt ein Koordinationsproblem des E-Marketplace vor. Wie heisst dieses Konzept, und welche zwei Auspraegungen hat es?",
+   "antwort": "Vermittlungsleistung des E-Marketplace (Kerngeschäft = Koordination von Angebot und Nachfrage); zwei Auspraegungen: quantitatives Koordinationsproblem (Mengenmissverhaeltnis) und qualitatives Koordinationsproblem (Anspruchsniveau-Mismatch bzw. nicht bestaetigte Objektbeschreibung)"
+  },
+  "thema": "E-Marketplace-Koordination",
+  "schaubild": "s094.png",
+  "schaubild_hinweis": "Folie 94 zeigt oben die Kernthese (Vermittlungsleistung als Produkt des Marketplace), dann zwei getrennte Blöcke für quantitative und qualitative Problemaspekte mit den Wohnungsbeispielen. Die roten Annotationen markieren genau die Punkte, an denen die Vermittlung konkret scheitert. Die Struktur der Folie entspricht direkt der erwarteten Klausur-Gliederung: Rahmen, quantitatives Problem, qualitatives Problem mit beiden Ausprägungen.",
+  "block": "B"
+ }
+]
